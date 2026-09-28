@@ -1,0 +1,26 @@
+# Python / Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets and Configs
+.env
+.env.*
+*.log
+
+# Project specific data and uploads
+verification_dataset/raw/
+verification_dataset/processed/
+verification_dataset/metadata/
+reports/
+uploads/
+faculty_documents/
+data/
+
+# EXPLICITLY TRACK MODEL
+!model1/verification_model.pkl
